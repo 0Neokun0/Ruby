@@ -1,3 +1,3 @@
 # Ruby Programe 
 
-echo "Hello World!" # Print out " Hello, world! "
+puts "Hello World!" # Print out " Hello, world! "
