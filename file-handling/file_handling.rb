@@ -1,0 +1,29 @@
+# File Handling Program
+
+# Opening a file
+fileobject = File.open("sample.txt", "r");
+
+# Reading the first n characters from a file
+puts(fileobject.sysread(21));
+
+# Closing a file
+fileobject.close();						
+
+# Opening a file
+fileobject = File.open("sample.txt", "r");	
+
+# Read the values as an array of lines
+print(fileobject.readlines);			
+puts
+
+# Closing a file
+fileobject.close();						
+
+# Opening a file
+fileobject = File.open("sample.txt", "r");
+
+# Read the entire content from a file
+print(fileobject.read());	
+
+# Closing a file
+fileobject.close();						
